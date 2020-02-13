@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="glad">
+      <UniqueIdentifier>{13df9436-7b8f-438f-90dd-8600ff2e6e18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glfw3">
+      <UniqueIdentifier>{1dc5d32f-2f6a-4c0c-a31c-b8170174194c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{7cb32ab8-0efb-4fb3-bed0-9724e41737f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glfw3\include">
+      <UniqueIdentifier>{b0f3ab46-b9e0-4e72-8fdb-c6e289c17ebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glfw3\src">
+      <UniqueIdentifier>{f65d2ebf-2bba-4544-905c-6f9fa1b05a7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glfw3\include\GLFW">
+      <UniqueIdentifier>{e4da99b9-5ec2-4323-9169-7b131fcf55d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glfw3\include\glfw\glfw3.h">
+      <Filter>glfw3\include\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="glfw3\include\glfw\glfw3native.h">
+      <Filter>glfw3\include\GLFW</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glfw3\src\context.c">
+      <Filter>glfw3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw3\src\egl_context.c">
+      <Filter>glfw3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw3\src\init.c">
+      <Filter>glfw3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw3\src\input.c">
+      <Filter>glfw3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw3\src\monitor.c">
+      <Filter>glfw3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw3\src\osmesa_context.c">
+      <Filter>glfw3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw3\src\vulkan.c">
+      <Filter>glfw3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw3\src\wgl_context.c">
+      <Filter>glfw3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw3\src\win32_init.c">
+      <Filter>glfw3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw3\src\win32_joystick.c">
+      <Filter>glfw3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw3\src\win32_monitor.c">
+      <Filter>glfw3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw3\src\win32_thread.c">
+      <Filter>glfw3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw3\src\win32_time.c">
+      <Filter>glfw3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw3\src\win32_window.c">
+      <Filter>glfw3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw3\src\window.c">
+      <Filter>glfw3\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
